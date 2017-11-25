@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:3:5-26
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [TopNews:library_SlidingMenu:unspecified] E:\Downloads\jrtt\TopNews\library_SlidingMenu\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\pengyu\.android\build-cache\b2b6b76ef030ea3a4e95756d02278742ed73b65e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pengyu\.android\build-cache\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pengyu\.android\build-cache\bd0044630596e033601beec333b57bd8a4769f98\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pengyu\.android\build-cache\3e363b8fd831d2c72e2dc41228582526414c7c54\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pengyu\.android\build-cache\74223eee254043c0b945dc025f6b1134514b54e2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pengyu\.android\build-cache\40909184f337cef84095fdcce6faca68bdfd8a4e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pengyu\.android\build-cache\83e1ace5643502cc7d98bc04a083fb468f78bc08\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pengyu\.android\build-cache\07bcbc47505bae819a39876725a95ed235820569\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pengyu\.android\build-cache\a7099315ac3932780bf1cc8146069d18fc4e9847\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pengyu\.android\build-cache\7b58d0f011d83f5d869e9874825de9c0a8b6f0e9\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pengyu\.android\build-cache\785aa4d481b9f0fc01e635566fe13ab83426264d\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pengyu\.android\build-cache\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+		INJECTED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:15:22-77
+application
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:17:5-47:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pengyu\.android\build-cache\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pengyu\.android\build-cache\bd0044630596e033601beec333b57bd8a4769f98\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pengyu\.android\build-cache\3e363b8fd831d2c72e2dc41228582526414c7c54\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pengyu\.android\build-cache\74223eee254043c0b945dc025f6b1134514b54e2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pengyu\.android\build-cache\40909184f337cef84095fdcce6faca68bdfd8a4e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pengyu\.android\build-cache\83e1ace5643502cc7d98bc04a083fb468f78bc08\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pengyu\.android\build-cache\07bcbc47505bae819a39876725a95ed235820569\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pengyu\.android\build-cache\a7099315ac3932780bf1cc8146069d18fc4e9847\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pengyu\.android\build-cache\7b58d0f011d83f5d869e9874825de9c0a8b6f0e9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pengyu\.android\build-cache\785aa4d481b9f0fc01e635566fe13ab83426264d\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:21:9-41
+	android:allowBackup
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:20:9-38
+	android:theme
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:18:9-43
+activity#com.topnews.Welcome
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:24:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:29:27-74
+activity#com.topnews.MainActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:32:9-50
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:32:19-47
+activity#com.topnews.SettingsActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:33:9-54
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:33:19-51
+activity#com.topnews.QusetionActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:34:9-36:64
+	android:label
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:36:13-61
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:35:13-45
+activity#com.topnews.VideoPlayActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:37:9-39:65
+	android:label
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:39:13-62
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:38:13-46
+activity#com.topnews.tool.TwoActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:40:9-42:58
+	android:label
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:42:13-55
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:41:13-45
+activity#com.topnews.NewMain
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:43:9-45
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:43:19-42
+activity#com.topnews.tool.AnswerActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:44:9-57
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:44:19-54
+activity#com.topnews.view.ShuatiActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:45:9-57
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:45:19-54
+activity#com.topnews.MyNewIndexActivity
+ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:46:9-65
+	android:name
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:46:19-53
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\pengyu\.android\build-cache\b2b6b76ef030ea3a4e95756d02278742ed73b65e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pengyu\.android\build-cache\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pengyu\.android\build-cache\bd0044630596e033601beec333b57bd8a4769f98\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pengyu\.android\build-cache\3e363b8fd831d2c72e2dc41228582526414c7c54\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pengyu\.android\build-cache\74223eee254043c0b945dc025f6b1134514b54e2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pengyu\.android\build-cache\40909184f337cef84095fdcce6faca68bdfd8a4e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pengyu\.android\build-cache\83e1ace5643502cc7d98bc04a083fb468f78bc08\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pengyu\.android\build-cache\07bcbc47505bae819a39876725a95ed235820569\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pengyu\.android\build-cache\a7099315ac3932780bf1cc8146069d18fc4e9847\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pengyu\.android\build-cache\7b58d0f011d83f5d869e9874825de9c0a8b6f0e9\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\pengyu\.android\build-cache\b2b6b76ef030ea3a4e95756d02278742ed73b65e\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\pengyu\.android\build-cache\b2b6b76ef030ea3a4e95756d02278742ed73b65e\output\AndroidManifest.xml:23:9-47

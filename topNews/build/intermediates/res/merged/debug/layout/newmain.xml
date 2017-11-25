@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/new_main_head" />
+    <View
+        android:id="@+id/category_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#ffdddddd" />
+
+
+
+        <TextView
+            android:id="@+id/free_vedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/free_vedio"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/category_line"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:id="@+id/scroll_image"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/free_vedio">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/viewGroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+        <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="110dp"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/scroll_image"
+             android:src="@drawable/querytime"
+             android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/querytime"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+        <TableLayout
+            android:id="@+id/cha_time"
+            android:layout_width="match_parent"
+            android:layout_height="150dip"
+            android:layout_below="@+id/querytime">
+            <TableRow>
+                <RelativeLayout
+                    android:id="@+id/free_live"
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="75dip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/zhibo"/>
+
+
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/tiku"
+                    android:src="@drawable/shuati"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="75dip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+
+            <TableRow>
+                <RelativeLayout
+                    android:id="@+id/taolun"
+                    android:src="@drawable/review"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="75dip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/teacher"
+                    android:src="@drawable/guihua"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="75dip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+
+
+                </RelativeLayout>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

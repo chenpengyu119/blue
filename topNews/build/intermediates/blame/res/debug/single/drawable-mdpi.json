@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\general_bg.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\general_bg.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zhongji.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\zhongji.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\kjshixun.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\kjshixun.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zhukuai.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\zhukuai.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\splash.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\querytime.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\querytime.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\item03.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\item03.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\page_indicator_unfocused.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\page_indicator_unfocused.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\chuji.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\chuji.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\start.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\start.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\item04.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\item04.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\page_indicator_focused.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\page_indicator_focused.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\choiceclass.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-mdpi\\choiceclass.png"
+    }
+]

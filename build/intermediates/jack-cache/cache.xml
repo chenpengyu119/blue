@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\a7099315ac3932780bf1cc8146069d18fc4e9847\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cf036fd36cdd5b05e32ba948dcde968bf4f07fbf.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\07bcbc47505bae819a39876725a95ed235820569\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b00886b0a79965f0fb84f2cbe19b8278dcf8ecf1.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\83e1ace5643502cc7d98bc04a083fb468f78bc08\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bbb7855ceebbcb854862b97562bb553afeef5a4b.jar" />
+    </item>
+    <item
+        jar="E:\Users\pengyu\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-c726a593a3e11129f5257534b2eb67b75ccc08e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\40909184f337cef84095fdcce6faca68bdfd8a4e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a19ce21024f2b6eef3d139cc42675f2328c2f6ed.jar" />
+    </item>
+    <item
+        jar="E:\Users\pengyu\AppData\Local\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.3"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-515a02f4465f8cf12b5df7ac72f20faca7e8fb4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\b2b6b76ef030ea3a4e95756d02278742ed73b65e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3e39aa4973af82259125cf95a4f8d8bdb421c04b.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\785aa4d481b9f0fc01e635566fe13ab83426264d\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3de1887c743052745f59df841b74267dfb648c6d.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\3e363b8fd831d2c72e2dc41228582526414c7c54\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4b9de0dfbce027f253257684164951dffd0075b2.jar" />
+    </item>
+    <item
+        jar="E:\Downloads\jrtt\TopNews\topNews\libs\hamcrest-core-1.3.jar"
+        revision="25.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\hamcrest-core-1.3-93351c4f695230aa3e098afe6946814d9d4438c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\7b58d0f011d83f5d869e9874825de9c0a8b6f0e9\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1e68f3d2135fcddd8a2a1579711db696093a36ec.jar" />
+    </item>
+    <item
+        jar="E:\Downloads\jrtt\TopNews\library_SlidingMenu\build\intermediates\bundles\default\classes.jar"
+        revision="25.0.3"
+        sha1="3a870fdd4e6cc88efd1b1038ec5b9d4b5126c21d">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0cbcbc6edad45bee6d24874fcce32652d307eb9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-65ce476d42c105013cea1675ff8369d4db7e390b.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\74223eee254043c0b945dc025f6b1134514b54e2\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-64ac228c8ffcde04dedbbd79aef7a0612046ab68.jar" />
+    </item>
+    <item
+        jar="C:\Users\pengyu\.android\build-cache\bd0044630596e033601beec333b57bd8a4769f98\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-84ebb69671fa4a37b442e39d29f74c2bda7a4e0e.jar" />
+    </item>
+    <item
+        jar="E:\Downloads\jrtt\TopNews\topNews\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        revision="25.0.3"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\universal-image-loader-1.9.2-SNAPSHOT-with-sources-2b35899e2e3d54a2e3e2f11632be4a48050a285b.jar" />
+    </item>
+    <item
+        jar="E:\Users\pengyu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.3.1-a0b7de194cbee12c12fbe8731228dc6ea289bcbd.jar" />
+    </item>
+    <item
+        jar="E:\Users\pengyu\AppData\Local\Android\sdk\platforms\android-25\android.jar"
+        revision="25.0.3"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-b4934d96a0f595d0ecfa71ee6bb706c5967ca68e.jar" />
+    </item>
+
+</items>

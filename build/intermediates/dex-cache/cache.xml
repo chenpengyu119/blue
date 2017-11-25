@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Downloads\jrtt\TopNews\topNews\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2-SNAPSHOT-with-sources_2b35899e2e3d54a2e3e2f11632be4a48050a285b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\Downloads\jrtt\TopNews\topNews\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e7cb0efc5d24c4c5cfd3ef79323163d062f8bbab\classes.dex" />
+    </item>
+
+</items>

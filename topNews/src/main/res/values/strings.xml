@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="index">首页</string>
+    <string name="work">题库</string>
+    <string name="info">资讯</string>
+    <string name="my">我的</string>
+    <string name="app_name" translatable="false">蔚蓝考证</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="left_drawer_no_login_tip" translatable="false">登录后，将推荐给你更多感兴趣的文章</string>
+    <string name="left_drawer_item_search" translatable="false">搜索</string>
+    <string name="left_drawer_item_favorite" translatable="false">开始学习</string>
+    <string name="left_drawer_item_message" translatable="false">消息</string>
+    <string name="left_drawer_item_offline" translatable="false">视频</string>
+    <string name="left_drawer_item_offline_cancel" translatable="false">取消离线</string>
+    <string name="left_drawer_item_activity" translatable="false">活动</string>
+    <string name="left_drawer_item_setting" translatable="false">设置</string>
+    <string name="left_drawer_item_feedback" translatable="false">反馈</string>
+    <string name="left_drawer_item_appstore" translatable="false">精彩应用</string>
+    <string name="drawer_right_logout_hint_text" translatable="false">"登录后 可使用做题记录和发帖"</string>
+    <string name="drawer_right_tip_no_login" translatable="false">未登录</string>
+    <string name="ss_pattern_update" translatable="false">发现%1$d条更新</string>
+    <string name="ss_have_a_rest" translatable="false">暂无更新, 休息一会儿</string>
+    <string name="action_night_mode" translatable="false">夜间模式</string>
+    <string name="action_day_mode" translatable="false">日间模式</string>
+    <string name="setting_list_mode" translatable="false">列表显示摘要</string>
+    <string name="setting_font_size" translatable="false">字体大小</string>
+    <string name="setting_list_comment" translatable="false">列表页评论</string>
+    <string name="setting_refresh_list" translatable="false">列表页刷新</string>
+    <string name="setting_load_image" translatable="false">2G/3G网络流量</string>
+    <string name="setting_notify" translatable="false">推送通知</string>
+    <string name="setting_interactive" translatable="false">互动插件</string>
+    <string name="setting_share_when_favor" translatable="false">收藏时转发</string>
+    <string name="setting_share_when_diggbury" translatable="false">顶踩时转发</string>
+    <string name="setting_clear" translatable="false">清理缓存</string>
+    <string name="setting_feedback" translatable="false">意见反馈</string>
+    <string name="setting_recommend" translatable="false">精彩应用推荐</string>
+    <string name="setting_update" translatable="false">检查新版本</string>
+    <string name="setting_night_mode" translatable="false">夜间模式</string>
+    <string name="setting_use_swipe" translatable="false">左右翻页</string>
+    <string name="setting_switch_domain" translatable="false">启动网络调试</string>
+    <string name="setting_close_shake_hand" translatable="false">关闭摇一摇切换夜间模式</string>
+    <string name="setting_use_help" translatable="false">使用帮助</string>
+    <string name="app_copyright" translatable="false">© 蔚蓝团队 toutiao.com</string>
+    <string name="favorite_btn_delete" translatable="false">删除</string>
+    <string name="favorite_btn_edit" translatable="false">编辑</string>
+    <string name="favorite_btn_cancel" translatable="false">取消</string>
+    <string name="dislike_dlg_lable_speech" translatable="false">读文章</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+
+
+
+
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="title_activity_video_play">VideoPlay</string>
+    <string name="title_activity_two">TwoActivity</string>
+    <string name="free_vedio">免费视频</string>
+    <!-- Base application theme. -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

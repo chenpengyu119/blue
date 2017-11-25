@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\popup_toast.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\popup_toast.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_demo.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\vedio_demo.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\profile_drawer_right.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\profile_drawer_right.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\newmain.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\newmain.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\left_drawer_fragment.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\left_drawer_fragment.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_question.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_question.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\question.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\question.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\column_radio_item.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\column_radio_item.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\first_question_select.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\first_question_select.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\city_item_content.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\city_item_content.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_pop.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\list_item_pop.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\library_SlidingMenu\\build\\intermediates\\bundles\\default\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_play.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\activity_video_play.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\answersystem.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\answersystem.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_new_index.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\activity_my_new_index.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\news_fragment.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\news_fragment.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\new_main_head.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\new_main_head.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_action.xml"
+    }
+]
