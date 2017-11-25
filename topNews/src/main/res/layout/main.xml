@@ -4,13 +4,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <include layout="@layout/main_head" />
+    <include layout="@layout/main_head"
+        android:id="@+id/xian"/>
 
     <FrameLayout
+
+        android:layout_below="@+id/xian"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="match_parent"
         android:id="@+id/fragment_question1"
+        android:layout_above="@+id/tab_menu"
         >
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment"
+            android:textColor="#000000"/>
+
+
+
 
     </FrameLayout>
 
@@ -20,11 +33,10 @@
         android:layout_height="0.5dip"
         android:background="#ffdddddd" />
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/mViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+
+
+
+
 
 
     <LinearLayout

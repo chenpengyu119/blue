@@ -8,13 +8,7 @@
     android:background="#ffffff">
 
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:id="@+id/fragment_question1"
-        >
 
-    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/tab_menu"

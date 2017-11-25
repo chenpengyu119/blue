@@ -85,7 +85,7 @@ public class MainActivity extends FragmentActivity {
 
 		shade_left = (ImageView) findViewById(R.id.shade_left);
 		shade_right = (ImageView) findViewById(R.id.shade_right);*/
-        mViewPager = (ViewPager) findViewById(R.id.mViewPager);
+      //  mViewPager = (ViewPager) findViewById(R.id.mViewPager);
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);
 
@@ -270,7 +270,7 @@ public class MainActivity extends FragmentActivity {
 				side_drawer.showContent();
 			}else {
 				if ((System.currentTimeMillis() - mExitTime) > 2000) {
-					Toast.makeText(this, "在按一次退出",
+					Toast.makeText(this, "再按一次退出",
 							Toast.LENGTH_SHORT).show();
 					mExitTime = System.currentTimeMillis();
 				} else {

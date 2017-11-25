@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.topnews.QuestionFragment"
+    android:id="@+id/qustionfragment"
    >
 
     <!-- TODO: Update blank fragment layout -->
@@ -10,6 +11,116 @@
         android:id="@+id/hello"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/hello_blank_fragment"
+        android:textColor="#000000"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/choiceclass" >
+        <include
+            android:id="@+id/title_bar"
+            layout="@layout/title_bar" />
+
+        <!--     <com.ss.android.common.ui.view.SwipeOverlayFrameLayout -->
+        <!--         android:id="@+id/swipe_overlay" -->
+        <!--         android:layout_width="fill_parent" -->
+        <!--         android:layout_height="wrap_content" -->
+        <!--         android:layout_below="@id/title_bar" > -->
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/title_bar" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/qustion_title"
+                    android:text="请选择考试科目"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/kjshixun"
+                    android:src="@drawable/kjshixun"
+                    android:scaleType="centerInside"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="50dp" />
+
+
+
+                <ImageView
+                    android:id="@+id/chuji"
+                    android:src="@drawable/chuji"
+                    android:scaleType="centerInside"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/kjshixun"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp" />
+
+
+
+                <ImageView
+                    android:id="@+id/zhongji"
+                    android:src="@drawable/zhongji"
+                    android:scaleType="centerInside"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/kjshixun"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="left" />
+
+
+                <ImageView
+                    android:id="@+id/zhukuai"
+                    android:src="@drawable/zhukuai"
+                    android:scaleType="centerInside"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/kjshixun"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="25dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/video"
+                    android:text="视频"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dongtu"
+                    android:text="动图"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dati"
+                    android:text="答题"/>
+
+            </LinearLayout>
+        </ScrollView>
+        <!--     </com.ss.android.common.ui.view.SwipeOverlayFrameLayout> -->
+
+    </RelativeLayout>
 
 </FrameLayout>

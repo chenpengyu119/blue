@@ -78,8 +78,8 @@ f:prebuilt/android/support/v7/appcompat/R$drawable.dex
 f:prebuilt/android/support/v7/appcompat/R$color.dex
 f:prebuilt/android/support/v7/appcompat/R$styleable.dex
 f:prebuilt/android/support/v7/appcompat/R$id.dex
-f:prebuilt/android/support/v7/appcompat/R$attr.dex
 f:prebuilt/android/support/v7/appcompat/R$integer.dex
+f:prebuilt/android/support/v7/appcompat/R$attr.dex
 f:prebuilt/android/support/v7/appcompat/R$style.dex
 f:prebuilt/android/support/v7/appcompat/R$string.dex
 f:prebuilt/android/support/v7/appcompat/R$dimen.dex
@@ -104,8 +104,8 @@ f:meta/files.dep
 f:jack.properties
 f:jayce/com/topnews/R$anim.jayce
 f:jayce/com/topnews/R$integer.jayce
-f:jayce/com/topnews/R$drawable.jayce
 f:jayce/com/topnews/R$bool.jayce
+f:jayce/com/topnews/R$drawable.jayce
 f:jayce/com/topnews/NewMain.jayce
 f:jayce/com/topnews/MainActivity$2.jayce
 f:jayce/com/topnews/dummy/DummyContent.jayce
@@ -151,8 +151,8 @@ f:jayce/com/topnews/tool/TwoActivity.jayce
 f:jayce/com/topnews/tool/Question.jayce
 f:jayce/com/topnews/tool/Options.jayce
 f:jayce/com/topnews/tool/AnswerActivity$3.jayce
-f:jayce/com/topnews/tool/TwoActivity$MyAdapter.jayce
 f:jayce/com/topnews/tool/AnswerActivity$2$1.jayce
+f:jayce/com/topnews/tool/TwoActivity$MyAdapter.jayce
 f:jayce/com/topnews/tool/AnswerActivity$2$3.jayce
 f:jayce/com/topnews/tool/DBService.jayce
 f:jayce/com/topnews/tool/AnswerActivity.jayce
