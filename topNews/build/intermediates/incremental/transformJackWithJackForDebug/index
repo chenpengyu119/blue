@@ -1,5 +1,4 @@
 f:prebuilt/com/topnews/NewMain.dex
-f:prebuilt/com/topnews/MainActivity$4.dex
 f:prebuilt/com/topnews/R$menu.dex
 f:prebuilt/com/topnews/NewMain$MyAdapter.dex
 f:prebuilt/com/topnews/dummy/DummyContent$DummyItem.dex
@@ -57,8 +56,8 @@ f:prebuilt/com/topnews/R$attr.dex
 f:prebuilt/com/topnews/QuestionFragment.dex
 f:prebuilt/com/topnews/R$string.dex
 f:prebuilt/com/topnews/R$dimen.dex
-f:prebuilt/com/topnews/MainActivity$3.dex
 f:prebuilt/com/topnews/R$bool.dex
+f:prebuilt/com/topnews/MainActivity$3.dex
 f:prebuilt/com/topnews/QusetionActivity.dex
 f:prebuilt/com/topnews/MyNewIndexActivity.dex
 f:prebuilt/com/topnews/R$layout.dex
@@ -105,8 +104,8 @@ f:meta/files.dep
 f:jack.properties
 f:jayce/com/topnews/R$anim.jayce
 f:jayce/com/topnews/R$integer.jayce
-f:jayce/com/topnews/R$bool.jayce
 f:jayce/com/topnews/R$drawable.jayce
+f:jayce/com/topnews/R$bool.jayce
 f:jayce/com/topnews/NewMain.jayce
 f:jayce/com/topnews/MainActivity$2.jayce
 f:jayce/com/topnews/dummy/DummyContent.jayce
@@ -127,7 +126,6 @@ f:jayce/com/topnews/Welcome$1.jayce
 f:jayce/com/topnews/NewMain$MyAdapter.jayce
 f:jayce/com/topnews/bean/NewsClassify.jayce
 f:jayce/com/topnews/bean/NewsEntity.jayce
-f:jayce/com/topnews/MainActivity$4.jayce
 f:jayce/com/topnews/app/AppApplication.jayce
 f:jayce/com/topnews/R$layout.jayce
 f:jayce/com/topnews/R$color.jayce
@@ -136,8 +134,8 @@ f:jayce/com/topnews/adapter/NewsAdapter$1.jayce
 f:jayce/com/topnews/adapter/NewsFragmentPagerAdapter.jayce
 f:jayce/com/topnews/adapter/NewsAdapter$popAction.jayce
 f:jayce/com/topnews/adapter/NewsAdapter$ViewHolder.jayce
-f:jayce/com/topnews/MainActivity$3.jayce
 f:jayce/com/topnews/R$dimen.jayce
+f:jayce/com/topnews/MainActivity$3.jayce
 f:jayce/com/topnews/BuildConfig.jayce
 f:jayce/com/topnews/R$string.jayce
 f:jayce/com/topnews/R.jayce
@@ -153,19 +151,19 @@ f:jayce/com/topnews/tool/TwoActivity.jayce
 f:jayce/com/topnews/tool/Question.jayce
 f:jayce/com/topnews/tool/Options.jayce
 f:jayce/com/topnews/tool/AnswerActivity$3.jayce
-f:jayce/com/topnews/tool/AnswerActivity$2$1.jayce
 f:jayce/com/topnews/tool/TwoActivity$MyAdapter.jayce
+f:jayce/com/topnews/tool/AnswerActivity$2$1.jayce
 f:jayce/com/topnews/tool/AnswerActivity$2$3.jayce
 f:jayce/com/topnews/tool/DBService.jayce
 f:jayce/com/topnews/tool/AnswerActivity.jayce
 f:jayce/com/topnews/R$attr.jayce
 f:jayce/com/topnews/R$id.jayce
 f:jayce/com/topnews/fragment/NewsFragment$2.jayce
-f:jayce/com/topnews/fragment/NewsFragment.jayce
 f:jayce/com/topnews/fragment/NewsFragment$1.jayce
+f:jayce/com/topnews/fragment/NewsFragment.jayce
 f:jayce/com/topnews/MainActivity.jayce
-f:jayce/com/topnews/R$styleable.jayce
 f:jayce/com/topnews/Welcome.jayce
+f:jayce/com/topnews/R$styleable.jayce
 f:jayce/com/topnews/VideoPlayActivity.jayce
 f:jayce/com/topnews/base/BaseActivity.jayce
 f:jayce/com/jeremyfeinstein/slidingmenu/lib/R$layout.jayce
@@ -185,8 +183,8 @@ f:jayce/android/support/v7/appcompat/R$string.jayce
 f:jayce/android/support/v7/appcompat/R$anim.jayce
 f:jayce/android/support/v7/appcompat/R.jayce
 f:jayce/android/support/v7/appcompat/R$integer.jayce
-f:jayce/android/support/v7/appcompat/R$bool.jayce
 f:jayce/android/support/v7/appcompat/R$drawable.jayce
+f:jayce/android/support/v7/appcompat/R$bool.jayce
 f:jayce/android/support/v7/appcompat/R$attr.jayce
 f:jayce/android/support/v7/appcompat/R$id.jayce
 f:jayce/android/support/v7/appcompat/R$style.jayce

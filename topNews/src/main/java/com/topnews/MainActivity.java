@@ -12,6 +12,7 @@ import com.topnews.view.ColumnHorizontalScrollView;
 import com.topnews.view.DrawerView;
 
 import android.annotation.TargetApi;
+import android.app.FragmentManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -24,6 +25,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -32,6 +34,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity {
+
+    private FrameLayout f1;
 	/** 自定义HorizontalScrollView */
 	private ColumnHorizontalScrollView mColumnHorizontalScrollView;
 	LinearLayout mRadioGroup_content;
@@ -73,14 +77,15 @@ public class MainActivity extends FragmentActivity {
 	}
 	/** 初始化layout控件*/
 	private void initView() {
-		mColumnHorizontalScrollView =  (ColumnHorizontalScrollView)findViewById(R.id.mColumnHorizontalScrollView);
+		/*mColumnHorizontalScrollView =  (ColumnHorizontalScrollView)findViewById(R.id.mColumnHorizontalScrollView);
 		mRadioGroup_content = (LinearLayout) findViewById(R.id.mRadioGroup_content);
 
 		rl_column = (RelativeLayout) findViewById(R.id.rl_column);
 
-		mViewPager = (ViewPager) findViewById(R.id.mViewPager);
+
 		shade_left = (ImageView) findViewById(R.id.shade_left);
-		shade_right = (ImageView) findViewById(R.id.shade_right);
+		shade_right = (ImageView) findViewById(R.id.shade_right);*/
+        mViewPager = (ViewPager) findViewById(R.id.mViewPager);
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);
 
@@ -118,7 +123,7 @@ public class MainActivity extends FragmentActivity {
 	 * */
 	private void setChangelView() {
 		initColumnData();
-		initTabColumn();
+		//initTabColumn();
 		initFragment();
 	}
 	/** 获取Column栏目 数据*/
@@ -129,7 +134,7 @@ public class MainActivity extends FragmentActivity {
 	/**
 	 *  初始化Column栏目项
 	 * */
-	private void initTabColumn() {
+/*	private void initTabColumn() {
 		mRadioGroup_content.removeAllViews();
 		int count =  newsClassify.size();
 		mColumnHorizontalScrollView.setParam(this, mScreenWidth, mRadioGroup_content, shade_left, shade_right, ll_more_columns, rl_column);
@@ -169,7 +174,7 @@ public class MainActivity extends FragmentActivity {
 			});
 			mRadioGroup_content.addView(columnTextView, i ,params);
 		}
-	}
+	}*/
 	/**
 	 *  选择的Column里面的Tab
 	 * */
@@ -202,7 +207,7 @@ public class MainActivity extends FragmentActivity {
 	 * */
 	@TargetApi(Build.VERSION_CODES.GINGERBREAD)
 	private void initFragment() {
-		int count =  newsClassify.size();
+	/*	int count =  newsClassify.size();
 		for(int i = 0; i< count;i++){
 			Bundle data = new Bundle();
 			data.putString("text", newsClassify.get(i).getTitle());
@@ -213,7 +218,16 @@ public class MainActivity extends FragmentActivity {
 		NewsFragmentPagerAdapter mAdapetr = new NewsFragmentPagerAdapter(getSupportFragmentManager(), fragments);
 //		mViewPager.setOffscreenPageLimit(0);
 		mViewPager.setAdapter(mAdapetr);
-		mViewPager.setOnPageChangeListener(pageListener);
+		mViewPager.setOnPageChangeListener(pageListener);*/
+     f1 = (FrameLayout) findViewById(R.id.fragment_question1);
+
+        android.app.Fragment fragment=new QuestionFragment();
+
+        FragmentManager frgManager = getFragmentManager();
+        // frgManager.beginTransaction().replace(R.id.fragment_question1, fragment).commit();
+        frgManager.beginTransaction().show(fragment);
+
+
 	}
 	/**
 	 *  ViewPager切换监听方法

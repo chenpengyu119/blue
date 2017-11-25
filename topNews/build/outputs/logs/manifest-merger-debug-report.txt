@@ -78,7 +78,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pe
 	android:icon
 		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:20:9-38
 	android:theme
-		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:22:9-59
+		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:22:9-40
 	android:name
 		ADDED from E:\Downloads\jrtt\TopNews\topNews\src\main\AndroidManifest.xml:18:9-43
 activity#com.topnews.Welcome
