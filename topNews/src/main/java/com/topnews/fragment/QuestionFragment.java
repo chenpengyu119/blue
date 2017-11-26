@@ -55,7 +55,6 @@ public class QuestionFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 transaction = getChildFragmentManager().beginTransaction();
-
                 hideAllFragment(transaction);
                 selected();
                 subject_base.setSelected(true);

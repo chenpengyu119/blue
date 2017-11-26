@@ -22,7 +22,8 @@
         android:id="@+id/category_line"
         android:layout_width="fill_parent"
         android:layout_height="0.5dip"
-        android:background="#ffdddddd" />
+        android:background="#ffdddddd"
+        android:layout_below="@+id/fragment_container"/>
 
 
     <LinearLayout
@@ -42,7 +43,8 @@
 
             android:gravity="center"
 
-            android:text="@string/index"/>
+            android:text="@string/index"
+            />
 
         <TextView
             android:id="@+id/txt_work"

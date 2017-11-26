@@ -72,7 +72,12 @@
     </LinearLayout>
 
 
-
+    <View
+        android:id="@+id/category_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#ffffff"
+        android:layout_below="@+id/object_menu"/>
 
     <!-- 中间主要内容   -->
     <FrameLayout
@@ -81,13 +86,8 @@
         android:layout_height="match_parent"
         android:id="@+id/fragment_container_subject"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true">
-
-
-
-
-
-
+        android:layout_alignParentStart="true"
+        android:background="@drawable/choiceclass">
 
 
     </FrameLayout>

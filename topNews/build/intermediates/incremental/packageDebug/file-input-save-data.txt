@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Nov 26 14:46:14 CST 2017
+#Sun Nov 26 15:42:06 CST 2017
 20.base=E\:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\resources-debug.ap_
 340.file=E\:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_dropdown_item_icons_2line.xml
