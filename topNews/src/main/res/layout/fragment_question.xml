@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.topnews.QuestionFragment"
+    tools:context="com.topnews.fragment.QuestionFragment"
     android:id="@+id/qustionfragment"
    >
 
@@ -19,11 +19,11 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@drawable/choiceclass" >
-        <include
-            android:id="@+id/title_bar"
-            layout="@layout/title_bar" />
+        <!--     <include
+              android:id="@+id/title_bar"
+              layout="@layout/title_bar" />-->
 
-        <!--     <com.ss.android.common.ui.view.SwipeOverlayFrameLayout -->
+          <!--     <com.ss.android.common.ui.view.SwipeOverlayFrameLayout -->
         <!--         android:id="@+id/swipe_overlay" -->
         <!--         android:layout_width="fill_parent" -->
         <!--         android:layout_height="wrap_content" -->

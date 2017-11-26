@@ -3,28 +3,32 @@ package com.topnews;
 import java.util.ArrayList;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.topnews.adapter.NewsFragmentPagerAdapter;
 import com.topnews.bean.NewsClassify;
-import com.topnews.fragment.NewsFragment;
+import com.topnews.fragment.IndexFragment;
+import com.topnews.fragment.InfoFragment;
+import com.topnews.fragment.MyFragment;
+import com.topnews.fragment.QuestionFragment;
 import com.topnews.tool.BaseTools;
 import com.topnews.tool.Constants;
 import com.topnews.view.ColumnHorizontalScrollView;
 import com.topnews.view.DrawerView;
+import com.topnews.view.ShuatiActivity;
 
 import android.annotation.TargetApi;
 import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -33,9 +37,22 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements View.OnClickListener{
 
-    private FrameLayout f1;
+
+
+    //这是活动里面的一个占位符，其他fragment都放在这里
+    private FrameLayout fragment_container;
+
+    //定义接收四个fragment,注意看四个fragment里面导入的是哪个app.fragment,android.app.fragment和supportv4.app.fragment不兼容
+    android.app.Fragment f1 = new IndexFragment();
+    android.app.Fragment f2 = new QuestionFragment();
+    android.app.Fragment f3 = new InfoFragment();
+    android.app.Fragment f4 = new MyFragment();
+
+
+    private TextView txt_index, txt_work, txt_info, txt_my;
+
 	/** 自定义HorizontalScrollView */
 	private ColumnHorizontalScrollView mColumnHorizontalScrollView;
 	LinearLayout mRadioGroup_content;
@@ -66,6 +83,24 @@ public class MainActivity extends FragmentActivity {
 	private ImageView top_head;
 	/** head 头部 的右侧菜单 按钮*/
 	private ImageView top_more;
+
+
+    //questionfragment控件
+    ImageView kjshixun;
+    ImageView chuji;
+    ImageView zhongji;
+    ImageView zhukuai;
+
+    TextView back; //返回按钮
+    TextView title;//标题栏文字
+
+    private Button video;
+    private Button dongtu;
+
+    private Button dati;
+
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -74,18 +109,12 @@ public class MainActivity extends FragmentActivity {
 		mItemWidth = mScreenWidth / 7;// 一个Item宽度为屏幕的1/7
 		initView();
 		initSlidingMenu();
+
+        bindView();
 	}
 	/** 初始化layout控件*/
 	private void initView() {
-		/*mColumnHorizontalScrollView =  (ColumnHorizontalScrollView)findViewById(R.id.mColumnHorizontalScrollView);
-		mRadioGroup_content = (LinearLayout) findViewById(R.id.mRadioGroup_content);
 
-		rl_column = (RelativeLayout) findViewById(R.id.rl_column);
-
-
-		shade_left = (ImageView) findViewById(R.id.shade_left);
-		shade_right = (ImageView) findViewById(R.id.shade_right);*/
-      //  mViewPager = (ViewPager) findViewById(R.id.mViewPager);
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);
 
@@ -117,6 +146,26 @@ public class MainActivity extends FragmentActivity {
 		});
 
 		setChangelView();
+
+
+        //questionfragment
+
+        back = (TextView)findViewById(R.id.back);
+        title = (TextView)findViewById(R.id.title);
+        kjshixun=(ImageView)findViewById(R.id.kjshixun);
+        chuji=(ImageView)findViewById(R.id.chuji);
+        zhongji=(ImageView)findViewById(R.id.zhongji);
+        zhukuai=(ImageView)findViewById(R.id.zhukuai);
+
+
+
+/*		dongtu=(Button)findViewById(R.id.dongtu);
+        dongtu.setOnClickListener(this);
+
+        dati=(Button)findViewById(R.id.dati);
+        dati.setOnClickListener(this);*/
+
+       // back.setOnClickListener(this);
 	}
 	/**
 	 *  当栏目项发生变化时候调用
@@ -124,60 +173,14 @@ public class MainActivity extends FragmentActivity {
 	private void setChangelView() {
 		initColumnData();
 		//initTabColumn();
-		initFragment();
+	//	initFragment();
 	}
 	/** 获取Column栏目 数据*/
 	private void initColumnData() {
 		newsClassify = Constants.getData();
 	}
 
-	/**
-	 *  初始化Column栏目项
-	 * */
-/*	private void initTabColumn() {
-		mRadioGroup_content.removeAllViews();
-		int count =  newsClassify.size();
-		mColumnHorizontalScrollView.setParam(this, mScreenWidth, mRadioGroup_content, shade_left, shade_right, ll_more_columns, rl_column);
-		for(int i = 0; i< count; i++){
-			LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(mItemWidth , LayoutParams.WRAP_CONTENT);
-			params.leftMargin = 5;
-			params.rightMargin = 5;
-//			TextView localTextView = (TextView) mInflater.inflate(R.layout.column_radio_item, null);
-			TextView columnTextView = new TextView(this);
-			columnTextView.setTextAppearance(this, R.style.top_category_scroll_view_item_text);
-//			localTextView.setBackground(getResources().getDrawable(R.drawable.top_category_scroll_text_view_bg));
-			columnTextView.setBackgroundResource(R.drawable.radio_buttong_bg);
-			columnTextView.setGravity(Gravity.CENTER);
-			columnTextView.setPadding(5, 5, 5, 5);
-			columnTextView.setId(i);
-			columnTextView.setText(newsClassify.get(i).getTitle());
-			columnTextView.setTextColor(getResources().getColorStateList(R.color.top_category_scroll_text_color_day));
-			if(columnSelectIndex == i){
-				columnTextView.setSelected(true);
-			}
-			columnTextView.setOnClickListener(new OnClickListener() {
 
-				@TargetApi(Build.VERSION_CODES.GINGERBREAD)
-				@Override
-				public void onClick(View v) {
-					for(int i = 0;i < mRadioGroup_content.getChildCount();i++){
-						View localView = mRadioGroup_content.getChildAt(i);
-						if (localView != v)
-							localView.setSelected(false);
-						else{
-							localView.setSelected(true);
-							mViewPager.setCurrentItem(i);
-						}
-					}
-					Toast.makeText(getApplicationContext(), newsClassify.get(v.getId()).getTitle(), Toast.LENGTH_SHORT).show();
-				}
-			});
-			mRadioGroup_content.addView(columnTextView, i ,params);
-		}
-	}*/
-	/**
-	 *  选择的Column里面的Tab
-	 * */
 	private void selectTab(int tab_postion) {
 		columnSelectIndex = tab_postion;
 		for (int i = 0; i < mRadioGroup_content.getChildCount(); i++) {
@@ -202,33 +205,9 @@ public class MainActivity extends FragmentActivity {
 			checkView.setSelected(ischeck);
 		}
 	}
-	/**
-	 *  初始化Fragment
-	 * */
-	@TargetApi(Build.VERSION_CODES.GINGERBREAD)
-	private void initFragment() {
-	/*	int count =  newsClassify.size();
-		for(int i = 0; i< count;i++){
-			Bundle data = new Bundle();
-			data.putString("text", newsClassify.get(i).getTitle());
-			NewsFragment newfragment = new NewsFragment();
-			newfragment.setArguments(data);
-			fragments.add(newfragment);
-		}
-		NewsFragmentPagerAdapter mAdapetr = new NewsFragmentPagerAdapter(getSupportFragmentManager(), fragments);
-//		mViewPager.setOffscreenPageLimit(0);
-		mViewPager.setAdapter(mAdapetr);
-		mViewPager.setOnPageChangeListener(pageListener);*/
-     f1 = (FrameLayout) findViewById(R.id.fragment_question1);
 
-        android.app.Fragment fragment=new QuestionFragment();
+	/*
 
-        FragmentManager frgManager = getFragmentManager();
-        // frgManager.beginTransaction().replace(R.id.fragment_question1, fragment).commit();
-        frgManager.beginTransaction().show(fragment);
-
-
-	}
 	/**
 	 *  ViewPager切换监听方法
 	 * */
@@ -285,4 +264,139 @@ public class MainActivity extends FragmentActivity {
 		}
 		return super.onKeyDown(keyCode, event);
 	}
+
+
+
+	//开始Fragment的表演
+
+    //UI组件初始化与事件绑定
+    private void bindView() {
+        txt_index = (TextView) this.findViewById(R.id.txt_index);
+        txt_work = (TextView) this.findViewById(R.id.txt_work);
+        txt_info = (TextView) this.findViewById(R.id.txt_info);
+        txt_my = (TextView) this.findViewById(R.id.txt_my);
+
+        txt_index.setOnClickListener(this);
+        txt_work.setOnClickListener(this);
+        txt_info.setOnClickListener(this);
+        txt_my.setOnClickListener(this);
+    }
+
+    //重置所有文本的选中状态
+    public void selected() {
+        txt_index.setSelected(false);
+        txt_work.setSelected(false);
+        txt_info.setSelected(false);
+        txt_my.setSelected(false);
+    }
+
+    //隐藏所有Fragment
+    public void hideAllFragment(FragmentTransaction transaction) {
+        if (f1 != null) {
+            transaction.hide(f1);
+        }
+        if (f2 != null) {
+            transaction.hide(f2);
+        }
+        if (f3 != null) {
+            transaction.hide(f3);
+        }
+        if (f4 != null) {
+            transaction.hide(f4);
+        }
+
+    }
+
+
+    //事件响应
+    public void onClick(View v) {
+        android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        hideAllFragment(transaction);
+
+        switch (v.getId()) {
+            case R.id.txt_index:
+                selected();
+                txt_index.setSelected(true);
+                if (f1 == null) {
+                    f1 = new QuestionFragment();
+
+
+                    transaction.add(R.id.fragment_container, f1);
+                } else {
+                    transaction.show(f1);
+                }
+                break;
+
+
+            case R.id.txt_work:
+                selected();
+
+                txt_work.setSelected(true);
+             /*   if (f2 == null) {  */
+                    f2 = new QuestionFragment();
+                    transaction.add(R.id.fragment_container, f2);
+             //   } else {
+                    transaction.show(f2);
+                //}
+
+                // Intent intent = new Intent(this, Register.class);
+                //  startActivity(intent);
+                break;
+
+            case R.id.txt_info:
+                selected();
+                txt_info.setSelected(true);
+               if (f3 == null) {
+                    f3 = new InfoFragment();
+                    transaction.add(R.id.fragment_container, f3);
+                } else {
+                    transaction.show(f3);
+               }
+                break;
+
+            case R.id.txt_my:
+                selected();
+                txt_my.setSelected(true);
+                if (f4 == null) {
+                    f4 = new MyFragment();
+                    transaction.add(R.id.fragment_container, f4);
+                } else {
+                    transaction.show(f4);
+                }
+                break;
+
+
+
+            case R.id.back:
+                onBackPressed();
+                break;
+
+
+        /*      case R.id.dongtu:
+                Intent intent1=new Intent(this, MyNewIndexActivity.class);
+                startActivity(intent1);
+                break;
+
+            case R.id.dati:
+                Intent intent2=new Intent(this, ShuatiActivity.class);//AnswerActivity
+                startActivity(intent2);
+                break;*/
+        }
+
+
+
+		//不能删除，否则不显示fragment
+        transaction.commit();
+    }
+
+
+
+
+
+
+
+
+
+
+
 }

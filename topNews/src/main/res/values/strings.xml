@@ -41,7 +41,7 @@
     <string name="setting_switch_domain" translatable="false">启动网络调试</string>
     <string name="setting_close_shake_hand" translatable="false">关闭摇一摇切换夜间模式</string>
     <string name="setting_use_help" translatable="false">使用帮助</string>
-    <string name="app_copyright" translatable="false">© 蔚蓝团队 toutiao.com</string>
+    <string name="app_copyright" translatable="false">© 蔚蓝团队 Blue.com</string>
     <string name="favorite_btn_delete" translatable="false">删除</string>
     <string name="favorite_btn_edit" translatable="false">编辑</string>
     <string name="favorite_btn_cancel" translatable="false">取消</string>

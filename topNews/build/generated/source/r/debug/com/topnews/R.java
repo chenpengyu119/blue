@@ -3527,8 +3527,8 @@ containing a value of this type.
         public static final int font_size=0x7f0a0129;
         public static final int font_size_arrow=0x7f0a012a;
         public static final int font_size_text=0x7f0a0128;
+        public static final int fragment_container=0x7f0a00e1;
         public static final int fragment_friend=0x7f0a0121;
-        public static final int fragment_question1=0x7f0a00e1;
         public static final int free_live=0x7f0a00f4;
         public static final int free_vedio=0x7f0a00ee;
         public static final int fullscreen=0x7f0a002e;
@@ -3815,42 +3815,45 @@ containing a value of this type.
         public static final int city_item_content=0x7f03001e;
         public static final int column_radio_item=0x7f03001f;
         public static final int first_question_select=0x7f030020;
-        public static final int fragment_question=0x7f030021;
-        public static final int left_drawer_fragment=0x7f030022;
-        public static final int list_item=0x7f030023;
-        public static final int list_item_pop=0x7f030024;
-        public static final int main=0x7f030025;
-        public static final int main_head=0x7f030026;
-        public static final int new_main_head=0x7f030027;
-        public static final int newmain=0x7f030028;
-        public static final int news_fragment=0x7f030029;
-        public static final int notification_action=0x7f03002a;
-        public static final int notification_action_tombstone=0x7f03002b;
-        public static final int notification_media_action=0x7f03002c;
-        public static final int notification_media_cancel_action=0x7f03002d;
-        public static final int notification_template_big_media=0x7f03002e;
-        public static final int notification_template_big_media_custom=0x7f03002f;
-        public static final int notification_template_big_media_narrow=0x7f030030;
-        public static final int notification_template_big_media_narrow_custom=0x7f030031;
-        public static final int notification_template_custom_big=0x7f030032;
-        public static final int notification_template_icon_group=0x7f030033;
-        public static final int notification_template_lines_media=0x7f030034;
-        public static final int notification_template_media=0x7f030035;
-        public static final int notification_template_media_custom=0x7f030036;
-        public static final int notification_template_part_chronometer=0x7f030037;
-        public static final int notification_template_part_time=0x7f030038;
-        public static final int popup_toast=0x7f030039;
-        public static final int profile_drawer_right=0x7f03003a;
-        public static final int question=0x7f03003b;
-        public static final int select_dialog_item_material=0x7f03003c;
-        public static final int select_dialog_multichoice_material=0x7f03003d;
-        public static final int select_dialog_singlechoice_material=0x7f03003e;
-        public static final int settings=0x7f03003f;
-        public static final int slidingmenumain=0x7f030040;
-        public static final int support_simple_spinner_dropdown_item=0x7f030041;
-        public static final int title_bar=0x7f030042;
-        public static final int vedio_demo=0x7f030043;
-        public static final int welcome=0x7f030044;
+        public static final int fragment_index=0x7f030021;
+        public static final int fragment_info=0x7f030022;
+        public static final int fragment_my=0x7f030023;
+        public static final int fragment_question=0x7f030024;
+        public static final int left_drawer_fragment=0x7f030025;
+        public static final int list_item=0x7f030026;
+        public static final int list_item_pop=0x7f030027;
+        public static final int main=0x7f030028;
+        public static final int main_head=0x7f030029;
+        public static final int new_main_head=0x7f03002a;
+        public static final int newmain=0x7f03002b;
+        public static final int news_fragment=0x7f03002c;
+        public static final int notification_action=0x7f03002d;
+        public static final int notification_action_tombstone=0x7f03002e;
+        public static final int notification_media_action=0x7f03002f;
+        public static final int notification_media_cancel_action=0x7f030030;
+        public static final int notification_template_big_media=0x7f030031;
+        public static final int notification_template_big_media_custom=0x7f030032;
+        public static final int notification_template_big_media_narrow=0x7f030033;
+        public static final int notification_template_big_media_narrow_custom=0x7f030034;
+        public static final int notification_template_custom_big=0x7f030035;
+        public static final int notification_template_icon_group=0x7f030036;
+        public static final int notification_template_lines_media=0x7f030037;
+        public static final int notification_template_media=0x7f030038;
+        public static final int notification_template_media_custom=0x7f030039;
+        public static final int notification_template_part_chronometer=0x7f03003a;
+        public static final int notification_template_part_time=0x7f03003b;
+        public static final int popup_toast=0x7f03003c;
+        public static final int profile_drawer_right=0x7f03003d;
+        public static final int question=0x7f03003e;
+        public static final int select_dialog_item_material=0x7f03003f;
+        public static final int select_dialog_multichoice_material=0x7f030040;
+        public static final int select_dialog_singlechoice_material=0x7f030041;
+        public static final int settings=0x7f030042;
+        public static final int slidingmenumain=0x7f030043;
+        public static final int support_simple_spinner_dropdown_item=0x7f030044;
+        public static final int title_bar=0x7f030045;
+        public static final int vedio_demo=0x7f030046;
+        public static final int welcome=0x7f030047;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -3951,10 +3954,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0700a3;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.   
          */
         public static final int AppBaseTheme=0x7f07000b;
         public static final int AppTheme=0x7f0700a4;
