@@ -2008,6 +2008,9 @@ int string title_activity_scrolling 0x7f050057
 int string title_activity_two 0x7f050058
 int string title_activity_video_play 0x7f050059
 int string work 0x7f05005a
+int string work_select_chapter 0x7f05005b
+int string work_select_favorite 0x7f05005c
+int string work_select_real 0x7f05005d
 int style AlertDialog_AppCompat 0x7f0700a0
 int style AlertDialog_AppCompat_Light 0x7f0700a1
 int style Animation_AppCompat_Dialog 0x7f0700a2

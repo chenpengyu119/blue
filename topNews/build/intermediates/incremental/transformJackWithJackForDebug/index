@@ -49,8 +49,8 @@ f:prebuilt/com/topnews/tool/AnswerActivity$2$3.dex
 f:prebuilt/com/topnews/R$styleable.dex
 f:prebuilt/com/topnews/fragment/LawFragment$3.dex
 f:prebuilt/com/topnews/fragment/LawFragment$2.dex
-f:prebuilt/com/topnews/fragment/ComputerFragment$3.dex
 f:prebuilt/com/topnews/fragment/QuestionFragment$3.dex
+f:prebuilt/com/topnews/fragment/ComputerFragment$3.dex
 f:prebuilt/com/topnews/fragment/TaxFragment$1.dex
 f:prebuilt/com/topnews/fragment/ComputerFragment.dex
 f:prebuilt/com/topnews/fragment/BaseFragment$3.dex
@@ -60,8 +60,8 @@ f:prebuilt/com/topnews/fragment/NewsFragment$2.dex
 f:prebuilt/com/topnews/fragment/InfoFragment.dex
 f:prebuilt/com/topnews/fragment/NewsFragment$1.dex
 f:prebuilt/com/topnews/fragment/IndexFragment.dex
-f:prebuilt/com/topnews/fragment/BaseFragment$1.dex
 f:prebuilt/com/topnews/fragment/LawFragment.dex
+f:prebuilt/com/topnews/fragment/BaseFragment$1.dex
 f:prebuilt/com/topnews/fragment/QuestionFragment$1.dex
 f:prebuilt/com/topnews/fragment/TaxFragment$3.dex
 f:prebuilt/com/topnews/fragment/MyFragment.dex
@@ -171,8 +171,8 @@ f:jayce/com/topnews/tool/TwoActivity.jayce
 f:jayce/com/topnews/tool/Question.jayce
 f:jayce/com/topnews/tool/Options.jayce
 f:jayce/com/topnews/tool/AnswerActivity$3.jayce
-f:jayce/com/topnews/tool/AnswerActivity$2$1.jayce
 f:jayce/com/topnews/tool/TwoActivity$MyAdapter.jayce
+f:jayce/com/topnews/tool/AnswerActivity$2$1.jayce
 f:jayce/com/topnews/tool/AnswerActivity$2$3.jayce
 f:jayce/com/topnews/tool/DBService.jayce
 f:jayce/com/topnews/tool/AnswerActivity.jayce

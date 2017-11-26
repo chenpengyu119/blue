@@ -8,6 +8,7 @@ package com.topnews.tool;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,13 +20,14 @@ public class DBService {
 
     private SQLiteDatabase db;
 
+    public DBService(){}
+
     //构造方法
-    public DBService() {
+    public DBService(String name,String path) {
+      //  String address="/data/data/com.topnews/databases/real.db";
+
         //连接数据库
-        db = SQLiteDatabase.openDatabase("/data/data/com.topnews/databases/real.db", null, SQLiteDatabase.OPEN_READWRITE);
-
-
-
+        db = SQLiteDatabase.openDatabase(path+name, null, SQLiteDatabase.OPEN_READWRITE);
 
     }
 

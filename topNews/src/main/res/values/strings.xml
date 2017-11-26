@@ -150,4 +150,10 @@
     <string name="subject_law">财经法规</string>
     <string name="subject_computer">会计电算化</string>
     <string name="subject_tax">财税主管</string>
+    <string name="work_select_chapter">章节练习</string>
+    <string name="work_select_real">真题</string>
+    <string name="work_select_favorite">收藏</string>
+
+
+
 </resources>

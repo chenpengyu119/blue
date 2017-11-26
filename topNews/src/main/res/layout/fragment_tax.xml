@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.topnews.fragment.BaseFragment">
+    tools:context="com.topnews.fragment.BaseFragment"
+    android:background="@drawable/choiceclass">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -14,24 +15,16 @@
         android:layout_height="80dip"
         android:layout_marginTop="15dip">
 
-        <View
 
-            android:id="@+id/category_line7"
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="#ffffff"
-            />
 
         <TextView
-
-            android:layout_below="@+id/category_line7"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="章节练习"
+            android:text="@string/work_select_chapter"
             android:textSize="@dimen/abc_action_bar_title_text_size"
             android:layout_marginTop="10dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="30dip"
+            android:layout_marginStart="30dip"
             android:textColor="#ffffff"
             />
 
@@ -56,11 +49,11 @@
 
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="真题"
+            android:text="@string/work_select_real"
             android:textSize="@dimen/abc_action_bar_title_text_size"
             android:layout_marginTop="10dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="30dip"
+            android:layout_marginStart="30dip"
             android:textColor="#ffffff"
             />
     </RelativeLayout>
@@ -85,11 +78,11 @@
 
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="收藏"
+            android:text="@string/work_select_favorite"
             android:textSize="@dimen/abc_action_bar_title_text_size"
             android:layout_marginTop="10dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="30dip"
+            android:layout_marginStart="30dip"
             android:textColor="#ffffff"
             />
     </RelativeLayout>

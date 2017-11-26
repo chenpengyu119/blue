@@ -71,7 +71,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 	private int mScreenWidth = 0;
 	/** Item宽度 */
 	private int mItemWidth = 0;
-	private ArrayList<Fragment> fragments = new ArrayList<Fragment>();
+
 
 	protected SlidingMenu side_drawer;
 
@@ -110,6 +110,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 	}
 	/** 初始化layout控件*/
 	private void initView() {
+
 
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);
@@ -189,11 +190,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 		for (int j = 0; j <  mRadioGroup_content.getChildCount(); j++) {
 			View checkView = mRadioGroup_content.getChildAt(j);
 			boolean ischeck;
-			if (j == tab_postion) {
-				ischeck = true;
-			} else {
-				ischeck = false;
-			}
+
+			ischeck=(j==tab_postion);
 			checkView.setSelected(ischeck);
 		}
 	}
@@ -251,10 +249,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 			return true;
 		}
 		//拦截MENU按钮点击事件，让他无任何操作
-		if (keyCode == KeyEvent.KEYCODE_MENU) {
-			return true;
-		}
-		return super.onKeyDown(keyCode, event);
+
+			return keyCode == KeyEvent.KEYCODE_MENU|| super.onKeyDown(keyCode, event);
 	}
 
 
@@ -264,6 +260,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     //UI组件初始化与事件绑定
     private void bindView() {
         txt_index = (TextView) this.findViewById(R.id.txt_index);
+		txt_index.setSelected(true);
         txt_work = (TextView) this.findViewById(R.id.txt_work);
         txt_info = (TextView) this.findViewById(R.id.txt_info);
         txt_my = (TextView) this.findViewById(R.id.txt_my);

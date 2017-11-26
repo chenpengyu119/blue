@@ -3961,6 +3961,9 @@ containing a value of this type.
         public static final int title_activity_two=0x7f050058;
         public static final int title_activity_video_play=0x7f050059;
         public static final int work=0x7f05005a;
+        public static final int work_select_chapter=0x7f05005b;
+        public static final int work_select_favorite=0x7f05005c;
+        public static final int work_select_real=0x7f05005d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0700a0;
@@ -3969,10 +3972,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0700a3;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.   
          */
         public static final int AppBaseTheme=0x7f07000b;
         public static final int AppTheme=0x7f0700a4;
