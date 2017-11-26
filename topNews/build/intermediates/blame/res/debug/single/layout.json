@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\popup_toast.xml",
-        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\popup_toast.xml"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\popup_toast.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\popup_toast.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\vedio_demo.xml",
@@ -24,12 +24,12 @@
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base.xml",
-        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_base.xml"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_base.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -112,8 +112,16 @@
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_question.xml"
     },
     {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_computer.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_computer.xml"
+    },
+    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tax.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_tax.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -158,6 +166,10 @@
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_law.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\layout\\fragment_law.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -206,10 +218,6 @@
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",

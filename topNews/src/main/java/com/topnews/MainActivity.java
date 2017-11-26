@@ -94,10 +94,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     TextView back; //返回按钮
     TextView title;//标题栏文字
 
-    private Button video;
-    private Button dongtu;
-
-    private Button dati;
 
 
 

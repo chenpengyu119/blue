@@ -29,7 +29,8 @@ import java.util.List;
 public class AnswerActivity extends Activity {
 
     //数据库的名称
-    private String DB_NAME = "question.db";
+  //  private String DB_NAME = "question.db";
+    private String DB_NAME;
     //数据库的地址
     private String DB_PATH = "/data/data/com.topnews/databases/";
     //总的题目数据
@@ -255,6 +256,9 @@ public class AnswerActivity extends Activity {
      * 将数据库拷贝到相应目录
      */
     private void initFile() {
+
+
+         DB_NAME = "real.db";
         //判断数据库是否拷贝到相应的目录下
         if (new File(DB_PATH + DB_NAME).exists() == false) {
             File dir = new File(DB_PATH);
