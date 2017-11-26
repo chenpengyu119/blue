@@ -8,6 +8,7 @@ import com.topnews.fragment.IndexFragment;
 import com.topnews.fragment.InfoFragment;
 import com.topnews.fragment.MyFragment;
 import com.topnews.fragment.QuestionFragment;
+import com.topnews.fragment.VideoFragment;
 import com.topnews.tool.BaseTools;
 import com.topnews.tool.Constants;
 import com.topnews.view.ColumnHorizontalScrollView;
@@ -48,7 +49,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     android.app.Fragment f1 = new IndexFragment();
     android.app.Fragment f2 = new QuestionFragment();
     android.app.Fragment f3 = new InfoFragment();
-    android.app.Fragment f4 = new MyFragment();
+    android.app.Fragment f4 = new VideoFragment();
 
 
     private TextView txt_index, txt_work, txt_info, txt_my;
@@ -85,11 +86,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 	private ImageView top_more;
 
 
-    //questionfragment控件
-    ImageView kjshixun;
-    ImageView chuji;
-    ImageView zhongji;
-    ImageView zhukuai;
 
     TextView back; //返回按钮
     TextView title;//标题栏文字
@@ -308,9 +304,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 txt_index.setSelected(true);
                 if (f1 == null) {
                     f1 = new QuestionFragment();
-
-
-                    transaction.add(R.id.fragment_container, f1);
+					transaction.add(R.id.fragment_container, f1);
                 } else {
                     transaction.show(f1);
                 }
@@ -321,15 +315,10 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 selected();
 
                 txt_work.setSelected(true);
-             /*   if (f2 == null) {  */
-                    f2 = new QuestionFragment();
-                    transaction.add(R.id.fragment_container, f2);
-             //   } else {
-                    transaction.show(f2);
-                //}
+				f2 = new QuestionFragment();
+				transaction.add(R.id.fragment_container, f2);
+				transaction.show(f2);
 
-                // Intent intent = new Intent(this, Register.class);
-                //  startActivity(intent);
                 break;
 
             case R.id.txt_info:

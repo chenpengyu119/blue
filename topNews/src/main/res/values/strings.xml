@@ -2,7 +2,7 @@
 <resources>
     <string name="index">首页</string>
     <string name="work">题库</string>
-    <string name="info">资讯</string>
+    <string name="info">视频</string>
     <string name="my">我的</string>
     <string name="app_name" translatable="false">蔚蓝考证</string>
     <string name="action_settings" translatable="false">Settings</string>
@@ -154,6 +154,10 @@
     <string name="work_select_real">真题</string>
     <string name="work_select_favorite">收藏</string>
 
+    <string name="train_tab">会计实训</string>
+    <string name="primary_tab">会计初级职称</string>
+    <string name="middle_tab">会计中级职称</string>
+    <string name="cpa_tab">注册会计师</string>
 
 
 </resources>

@@ -43,7 +43,13 @@ public class BaseFragment extends Fragment {
         base_chapter.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(getActivity(), AnswerActivity.class);
+                Intent intent1;
+
+                intent1=new Intent(getActivity(), AnswerActivity.class);
+
+
+                intent1.putExtra("pre", "base_chapter");//传值，判断选择哪个数据库表的试题
+
                 startActivity(intent1);
             }
         });
@@ -52,7 +58,8 @@ public class BaseFragment extends Fragment {
         base_real.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(getActivity(), ShuatiActivity.class);
+                Intent intent1=new Intent(getActivity(), AnswerActivity.class);
+                intent1.putExtra("pre", "base_real");
                 startActivity(intent1);
             }
         });

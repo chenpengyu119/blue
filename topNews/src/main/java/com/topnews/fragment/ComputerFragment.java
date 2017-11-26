@@ -44,6 +44,7 @@ public class ComputerFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent1=new Intent(getActivity(), AnswerActivity.class);
+                intent1.putExtra("pre", "computer_chapter");
                 startActivity(intent1);
             }
         });
@@ -52,8 +53,9 @@ public class ComputerFragment extends Fragment {
         computer_real.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(getActivity(), ShuatiActivity.class);
-                startActivity(intent1);
+                Intent intent2=new Intent(getActivity(), AnswerActivity.class);
+                intent2.putExtra("pre", "computer_real");
+                startActivity(intent2);
             }
         });
 

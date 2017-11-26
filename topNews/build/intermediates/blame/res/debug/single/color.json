@@ -16,12 +16,12 @@
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",

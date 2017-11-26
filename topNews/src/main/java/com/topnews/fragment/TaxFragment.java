@@ -51,6 +51,7 @@ public class TaxFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent1=new Intent(getActivity(), ShuatiActivity.class);
+                intent1.putExtra("pre", "tax_chapter");
                 startActivity(intent1);
             }
         });

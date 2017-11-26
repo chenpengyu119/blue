@@ -51,7 +51,7 @@ public class VideoPlayActivity extends Activity implements MediaPlayer.OnPrepare
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vedio_demo);
-        url = getIntent().getStringExtra(KEY_URL);
+        url = getIntent().getStringExtra(KEY_URL);        //获取视频播放地址
         if (url == null && savedInstanceState != null) {
             url = savedInstanceState.getString(KEY_URL);
         }

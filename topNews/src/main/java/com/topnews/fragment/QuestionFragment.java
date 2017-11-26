@@ -16,7 +16,6 @@ import com.topnews.R;
  */
 public class QuestionFragment extends Fragment {
 
-    private RelativeLayout base_chapter,base_favorite,base_real;
 
     Fragment baseFragment;
     Fragment lawFragment;

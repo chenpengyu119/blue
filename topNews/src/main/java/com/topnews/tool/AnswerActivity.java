@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -28,6 +30,9 @@ import java.util.List;
 
 public class AnswerActivity extends Activity {
 
+
+   // private String file_name;
+    //private String file_address;
     //数据库的名称
   //  private String DB_NAME = "question.db";
     private String DB_NAME;
@@ -56,9 +61,38 @@ public class AnswerActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.answersystem);
+
+        //先调用判断使用哪个表的方法initSelect();
         initFile();
         initView();
         initDB();
+    }
+
+
+    //选择数据库表
+    private String initSeletc(){
+        String pre;
+        String name="question.db";
+        Intent intent=getIntent();
+        pre=intent.getStringExtra("pre");
+
+        if(pre.equals("base_chapter"))
+            name="real.db";
+        else if(pre.equals("law_chapter"))
+            name="question.db";
+        else if(pre.equals("tax_chapter"))
+            name="question.db";
+        else if(pre.equals("computer_chapter"))
+            name="question.db";
+        else if(pre.equals("base_real"))
+            name="question.db";
+        else if(pre.equals("computer_real"))
+            name="question.db";
+        else
+            ;
+
+        return name;
+
     }
 
 
@@ -88,7 +122,10 @@ public class AnswerActivity extends Activity {
      * 初始化数据库服务
      */
     private void initDB() {
-        DBService dbService = new DBService();
+
+        //判断使用哪个数据库表                                                                **************************************
+        DB_NAME=initSeletc();
+        DBService dbService = new DBService(DB_NAME,DB_PATH);
         final List<Question> list = dbService.getQuestion();
 
         count = list.size();
@@ -257,8 +294,8 @@ public class AnswerActivity extends Activity {
      */
     private void initFile() {
 
+        DB_NAME=initSeletc();
 
-         DB_NAME = "real.db";
         //判断数据库是否拷贝到相应的目录下
         if (new File(DB_PATH + DB_NAME).exists() == false) {
             File dir = new File(DB_PATH);

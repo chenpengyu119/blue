@@ -164,6 +164,10 @@
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\yuan.png"
     },
     {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_work_bg_pink.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\tab_work_bg_pink.xml"
+    },
+    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_kaixin.xml",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\btn_kaixin.xml"
     },
@@ -238,6 +242,10 @@
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\right_drawer_attention.xml",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\right_drawer_attention.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_work_bg_blue.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\tab_work_bg_blue.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\wiper_switch_btn.xml",
@@ -398,6 +406,14 @@
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\pengyu\\.android\\build-cache\\2254c1e0d2de1d757ec4de7bea74f58a1d86bfd5\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_work_bg_red.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\tab_work_bg_red.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_work_bg_purple.xml",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable\\tab_work_bg_purple.xml"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_center.xml",

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/choiceclass" >
+
+
+    <!--     <com.ss.android.common.ui.view.SwipeOverlayFrameLayout -->
+    <!--         android:id="@+id/swipe_overlay" -->
+    <!--         android:layout_width="fill_parent" -->
+    <!--         android:layout_height="wrap_content" -->
+    <!--         android:layout_below="@id/title_bar" > -->
+
+
+    <!--  开始-->
+    <LinearLayout
+        android:id="@+id/object_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/video_train"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/train_tab"/>
+
+        <TextView
+            android:id="@+id/video_primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/primary_tab"/>
+
+        <TextView
+            android:id="@+id/video_middle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/middle_tab" />
+
+        <TextView
+            android:id="@+id/video_cpa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/cpa_tab"/>   <!--这只是文本，按钮在这里-->
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/category_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#ffffff"
+        android:layout_below="@+id/object_menu"/>
+
+    <!-- 中间主要内容   -->
+    <FrameLayout
+        android:id="@+id/fragment_container_videolist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/choiceclass"
+        android:layout_below="@+id/category_line"
+        android:layout_alignParentStart="true">
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

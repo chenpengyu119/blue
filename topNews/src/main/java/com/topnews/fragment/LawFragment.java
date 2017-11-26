@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.topnews.R;
+import com.topnews.VideoPlayActivity;
 import com.topnews.tool.AnswerActivity;
 import com.topnews.view.ShuatiActivity;
 
@@ -28,9 +29,9 @@ public class LawFragment extends Fragment {
     }
 
 
-private RelativeLayout demo;
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_law, container, false);
@@ -45,6 +46,8 @@ private RelativeLayout demo;
             @Override
             public void onClick(View v) {
                 Intent intent1=new Intent(getActivity(), AnswerActivity.class);
+
+                intent1.putExtra("pre", "law_chapter");
                 startActivity(intent1);
             }
         });
@@ -53,8 +56,9 @@ private RelativeLayout demo;
         law_real.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(getActivity(), ShuatiActivity.class);
-                startActivity(intent1);
+                Intent intent2=new Intent(getActivity(), VideoPlayActivity.class);
+                intent2.putExtra("KEY_URL", "192.168.191.1:8080/Test/1.mp4");
+                startActivity(intent2);
             }
         });
 
