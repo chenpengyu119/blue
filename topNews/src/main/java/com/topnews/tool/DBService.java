@@ -24,6 +24,9 @@ public class DBService {
         //连接数据库
         db = SQLiteDatabase.openDatabase("/data/data/com.topnews/databases/question.db", null, SQLiteDatabase.OPEN_READWRITE);
 
+
+
+
     }
 
     //获取数据库的数据

@@ -152,10 +152,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
         back = (TextView)findViewById(R.id.back);
         title = (TextView)findViewById(R.id.title);
-        kjshixun=(ImageView)findViewById(R.id.kjshixun);
-        chuji=(ImageView)findViewById(R.id.chuji);
-        zhongji=(ImageView)findViewById(R.id.zhongji);
-        zhukuai=(ImageView)findViewById(R.id.zhukuai);
 
 
 

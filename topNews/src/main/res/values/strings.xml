@@ -48,10 +48,6 @@
     <string name="dislike_dlg_lable_speech" translatable="false">读文章</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
-
-
-
-
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -149,4 +145,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="subject_base">会计基础</string>
+    <string name="subject_law">财经法规</string>
+    <string name="subject_computer">会计电算化</string>
+    <string name="subject_tax">财税主管</string>
 </resources>

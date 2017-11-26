@@ -12,12 +12,12 @@
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\ic_mark_hot_night.png"
     },
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\right_drawer_attention_normal.png",
-        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\right_drawer_attention_normal.png"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_setting_pressed.png",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\ic_drawer_setting_pressed.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\right_drawer_attention_normal.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\right_drawer_attention_normal.png"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\account_icon_kaixin.png",
@@ -72,12 +72,12 @@
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\btn_renren_normal.png"
     },
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\left_drawer_activity_press.png",
-        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\left_drawer_activity_press.png"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_favorite_pressed.png",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\ic_drawer_favorite_pressed.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\left_drawer_activity_press.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\left_drawer_activity_press.png"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_toast_post_ok.png",
@@ -120,24 +120,24 @@
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\btn_category_normal.png"
     },
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\small_loadpic_empty_listpage.png",
-        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\small_loadpic_empty_listpage.png"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_new.png",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\icon_new.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\small_loadpic_empty_listpage.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\small_loadpic_empty_listpage.png"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\refreshicon_titlebar.png",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\refreshicon_titlebar.png"
     },
     {
-        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_tencent.png",
-        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\ic_drawer_tencent.png"
-    },
-    {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_weibo.png",
         "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\ic_drawer_weibo.png"
+    },
+    {
+        "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer_tencent.png",
+        "source": "E:\\Downloads\\jrtt\\TopNews\\topNews\\src\\main\\res\\drawable-xhdpi\\ic_drawer_tencent.png"
     },
     {
         "merged": "E:\\Downloads\\jrtt\\TopNews\\topNews\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\listpage_more_like_pressed.png",

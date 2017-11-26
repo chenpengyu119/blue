@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="17"
         android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -35,9 +35,6 @@
         </activity>
         <activity android:name="com.topnews.MainActivity" />
         <activity android:name="com.topnews.SettingsActivity" />
-        <activity
-            android:name="com.topnews.QusetionActivity"
-            android:label="@string/title_activity_scrolling" />
         <activity
             android:name="com.topnews.VideoPlayActivity"
             android:label="@string/title_activity_video_play" />

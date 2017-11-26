@@ -8,10 +8,8 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.topnews.QusetionActivity;
 import com.topnews.R;
 import com.topnews.SettingsActivity;
 /**
@@ -92,7 +90,7 @@ public class DrawerView implements OnClickListener{
 				break;
 
 			case R.id.favorite_btn:
-				activity.startActivity(new Intent(activity, QusetionActivity.class));
+				//activity.startActivity(new Intent(activity, QusetionActivity.class));
 				activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 				break;
 			default:

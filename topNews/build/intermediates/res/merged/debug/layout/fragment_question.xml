@@ -1,126 +1,91 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.topnews.fragment.QuestionFragment"
-    android:id="@+id/qustionfragment"
-   >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/choiceclass" >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/hello"
+
+    <!--     <com.ss.android.common.ui.view.SwipeOverlayFrameLayout -->
+    <!--         android:id="@+id/swipe_overlay" -->
+    <!--         android:layout_width="fill_parent" -->
+    <!--         android:layout_height="wrap_content" -->
+    <!--         android:layout_below="@id/title_bar" > -->
+
+
+    <!--  开始-->
+    <LinearLayout
+        android:id="@+id/object_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/subject_base"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/subject_base"/>
+
+        <TextView
+            android:id="@+id/subject_law"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/subject_law"/>
+
+        <TextView
+            android:id="@+id/txt_computer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/subject_computer" />
+
+        <TextView
+            android:id="@+id/txt_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="@string/subject_tax"/>   <!--这只是文本，按钮在这里-->
+
+    </LinearLayout>
+
+
+
+
+    <!-- 中间主要内容   -->
+    <FrameLayout
+        android:layout_below="@+id/object_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
-        android:textColor="#000000"/>
+        android:id="@+id/fragment_container_subject"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/root_view"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/choiceclass" >
-        <!--     <include
-              android:id="@+id/title_bar"
-              layout="@layout/title_bar" />-->
-
-          <!--     <com.ss.android.common.ui.view.SwipeOverlayFrameLayout -->
-        <!--         android:id="@+id/swipe_overlay" -->
-        <!--         android:layout_width="fill_parent" -->
-        <!--         android:layout_height="wrap_content" -->
-        <!--         android:layout_below="@id/title_bar" > -->
-
-        <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/title_bar" >
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:orientation="vertical" >
-
-                <TextView
-                    android:id="@+id/qustion_title"
-                    android:text="请选择考试科目"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    />
-
-
-                <ImageView
-                    android:id="@+id/kjshixun"
-                    android:src="@drawable/kjshixun"
-                    android:scaleType="centerInside"
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="left"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginLeft="50dp" />
+    </FrameLayout>
 
 
 
-                <ImageView
-                    android:id="@+id/chuji"
-                    android:src="@drawable/chuji"
-                    android:scaleType="centerInside"
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_below="@id/kjshixun"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="20dp" />
-
-
-
-                <ImageView
-                    android:id="@+id/zhongji"
-                    android:src="@drawable/zhongji"
-                    android:scaleType="centerInside"
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_below="@id/kjshixun"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_gravity="left" />
-
-
-                <ImageView
-                    android:id="@+id/zhukuai"
-                    android:src="@drawable/zhukuai"
-                    android:scaleType="centerInside"
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_below="@id/kjshixun"
-                    android:layout_marginTop="55dp"
-                    android:layout_marginLeft="25dp" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/video"
-                    android:text="视频"/>
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/dongtu"
-                    android:text="动图"/>
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/dati"
-                    android:text="答题"/>
-
-            </LinearLayout>
-        </ScrollView>
-        <!--     </com.ss.android.common.ui.view.SwipeOverlayFrameLayout> -->
-
-    </RelativeLayout>
-
-</FrameLayout>
+</RelativeLayout>
